@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: 'Roboto', Consolas, 'Courier New', monospace;
+    
+
+}
+
+.hero{
+    display: block;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: #1F2937;
+    padding: 0px 150px;
+    
+}
+
+.header-logo a{
+    text-decoration: none; 
+    font-size: 24px;
+    font-weight:bold;
+    color: #F9FAF8;    
+}
+
+.header-links{
+    display: flex;
+    gap:20px;
+    list-style: none;
+}
+
+.header-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;     
+}
+
+a:hover{
+    color:cadetblue;
+}
+
