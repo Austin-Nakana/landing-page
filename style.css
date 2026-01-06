@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     margin:0;
     font-family: 'Roboto', Consolas, 'Courier New', monospace;
     
@@ -10,14 +10,14 @@
     display: block;
 }
 
+/*------HEADER-------*/
 .header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100px;
     background-color: #1F2937;
-    padding: 0px 150px;
-    
+    padding: 0px 150px;  
 }
 
 .header-logo a{
@@ -42,4 +42,61 @@
 a:hover{
     color:cadetblue;
 }
+/*------HEADER-END-------*/
 
+
+.hero-content{
+    display:flex;
+    height: 360px;
+    background-color: #1F2937;
+    padding: 30px 150px;
+}
+
+.left-half{
+    flex:1;  
+    
+    
+}
+
+.left-half h1{
+      font-size: 48px;
+      color: #F9FAF8;
+      font-weight:900;
+}
+
+.left-half p{
+      color: #F9FAF8;
+      font-size: 18px;  
+}
+
+.sign-up-btn{
+    
+    margin: 20px 0px;
+    width: 120px;
+    height:40px;
+    border-radius: 7px;
+    background-color: #3882F6;  
+}
+
+.sign-up-btn:hover{
+    background-color:#1F2937;
+}
+
+.sign-up-btn a{
+   text-decoration: none;
+   color: #F9FAF8;
+   font-weight:bolder;
+   font-size:medium;
+}
+
+.right-half{
+    flex:1; 
+    display:flex;
+    justify-content: flex-end;        
+}
+
+.right-half img{
+    width:550px;
+    height:300px;
+    border-radius:5px;
+}
