@@ -187,24 +187,23 @@ a:hover{
 
 
 /*------BODY-CONTENT-BOTTOM-SECTION-------*/
-
 .bottom-section{
     flex:1;
-    border: 2px solid red;
 }
 
 .banner{
     display:flex;
+    justify-content: center;
     align-items: center;
     background-color: #3882F6; 
     border-radius: 10px;
     margin: 160px 240px;
-    height:140px;   
+    height:160px;   
 }
 
 .banner-text{
     flex:1;
-    padding:0px 100px;  
+    padding: 0px 100px;
     color: #F9FAF8;
 }
 
@@ -213,10 +212,15 @@ a:hover{
 }
 
 .banner-sign-up-btn button{
-    width: 120px;
+    width: 135px;
     height:40px;
     border-radius: 7px;
+    border: 2px solid white;
     background-color: #3882F6;  
+}
+
+.banner-sign-up-btn button:hover{
+    background-color: #1F2937;  
 }
 
 .banner-sign-up-btn a{
