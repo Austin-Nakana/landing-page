@@ -1,5 +1,5 @@
 *{
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     margin:0;
     font-family: 'Roboto', Consolas, 'Courier New', monospace;
 }
@@ -99,6 +99,7 @@ a:hover{
 /*------HERO-END-------*/
 
 
+/*------BODY-CONTENT-TOP-SECTION-------*/
 .body-content{
     display:flex;
     flex-direction: column;
@@ -108,9 +109,8 @@ a:hover{
 
 .top-section{
     flex:1;
-    border: 2px solid red;
+    
 }
-
 
 .top-section-text{
     display:flex;
@@ -122,7 +122,6 @@ a:hover{
     color: #1F2937;
     font-size:36px;
     font-weight: 900;
-
 }
 
 .top-section-illustrations{
@@ -151,20 +150,79 @@ a:hover{
     border-radius: 15px;
     border:4px solid #3882F6;
 }
+/*------BODY-CONTENT-TOP-SECTION-END------*/
 
 
 
 
 
-
-
-
+/*------BODY-CONTENT-MIDDLE-SECTION-------*/
 .middle-section{
     flex:1;
-    border: 2px solid red;
+    background-color: #E5E7EB;
 }
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    height:494px;
+}
+
+.quote q{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:300; 
+}
+
+.quote p{
+    align-self: flex-end;
+    margin:0px 360px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight:bold;   
+}
+/*------BODY-CONTENT-MIDDLE-SECTION-END------*/
+
+
+/*------BODY-CONTENT-BOTTOM-SECTION-------*/
 
 .bottom-section{
     flex:1;
     border: 2px solid red;
 }
+
+.banner{
+    display:flex;
+    align-items: center;
+    background-color: #3882F6; 
+    border-radius: 10px;
+    margin: 160px 240px;
+    height:140px;   
+}
+
+.banner-text{
+    flex:1;
+    padding:0px 100px;  
+    color: #F9FAF8;
+}
+
+.banner-sign-up-btn{
+    flex:1;
+}
+
+.banner-sign-up-btn button{
+    width: 120px;
+    height:40px;
+    border-radius: 7px;
+    background-color: #3882F6;  
+}
+
+.banner-sign-up-btn a{
+   text-decoration: none;
+   color: #F9FAF8;
+   font-weight:bolder;
+   font-size:medium;
+}
+/*------BODY-CONTENT-BOTTOM-SECTION-END------*/
