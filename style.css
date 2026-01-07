@@ -230,3 +230,14 @@ a:hover{
    font-size:medium;
 }
 /*------BODY-CONTENT-BOTTOM-SECTION-END------*/
+
+
+
+
+footer{
+    background-color: #1F2937;
+    height: 100px;
+    text-align: center;
+    padding: 40px;
+    color: #E5E7EB;
+}
